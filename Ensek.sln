@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ensek.Api", "Ensek.Api\Ensek.Api.csproj", "{3C2368D1-3ABE-4A87-ACB4-8A6F29D2913B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ensek.Data", "Ensek.Data\Ensek.Data.csproj", "{335BA8B3-1B29-4501-A39D-CBB1CD7B0133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ensek.Tests", "Ensek.Tests\Ensek.Tests.csproj", "{354A1CDC-E05B-42AC-B0EA-306524DFD5AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C2368D1-3ABE-4A87-ACB4-8A6F29D2913B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C2368D1-3ABE-4A87-ACB4-8A6F29D2913B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C2368D1-3ABE-4A87-ACB4-8A6F29D2913B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C2368D1-3ABE-4A87-ACB4-8A6F29D2913B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{335BA8B3-1B29-4501-A39D-CBB1CD7B0133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{335BA8B3-1B29-4501-A39D-CBB1CD7B0133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{335BA8B3-1B29-4501-A39D-CBB1CD7B0133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{335BA8B3-1B29-4501-A39D-CBB1CD7B0133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{354A1CDC-E05B-42AC-B0EA-306524DFD5AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{354A1CDC-E05B-42AC-B0EA-306524DFD5AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{354A1CDC-E05B-42AC-B0EA-306524DFD5AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{354A1CDC-E05B-42AC-B0EA-306524DFD5AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CEE48C4-8D1E-4661-A17C-AAE59CE2DE84}
+	EndGlobalSection
+EndGlobal

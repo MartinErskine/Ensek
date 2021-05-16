@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ensek.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Ensek.Api.Controllers.AccountController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Ensek.Api.Controllers.AccountController.#ctor(Ensek.Api.Interfaces.IAccountService)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Ensek.Api.Controllers.AccountController.GetAccounts">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Ensek.Api.Controllers.AccountController.GetAccount(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="accountId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Ensek.Api.Controllers.MeterReadingController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Ensek.Api.Controllers.MeterReadingController.GetMeterReadings">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Ensek.Api.Controllers.MeterReadingController.ImportCsvFile(Ensek.Api.Models.MeterReading.MeterReadingsImportRequestModel)">
+            <summary>
+            
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Ensek.Api.Enums.MeterReadingImportStatusEnum">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Ensek.Api.Helpers.AutoMapperConfigs.AccountProfile">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Ensek.Api.Helpers.AutoMapperConfigs.AccountProfile.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Ensek.Api.Helpers.AutoMapperConfigs.MeterReadingProfile">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Ensek.Api.Helpers.AutoMapperConfigs.MeterReadingProfile.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Ensek.Api.Helpers.InvalidMeterReadingMap">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Ensek.Api.Helpers.InvalidMeterReadingMap.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Ensek.Api.Helpers.MeterReadingImportMap">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Ensek.Api.Helpers.MeterReadingImportMap.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Ensek.Api.Helpers.ServiceResponse`1">
+            <summary>
+            Response wrapper
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:Ensek.Api.Helpers.ServiceResponse`1.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Ensek.Api.Helpers.ServiceResponse`1.#ctor(System.Nullable{System.Net.HttpStatusCode})">
+            <summary>
+            
+            </summary>
+            <param name="errorCode"></param>
+        </member>
+        <member name="M:Ensek.Api.Helpers.ServiceResponse`1.#ctor(System.Nullable{System.Net.HttpStatusCode},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="errorCode"></param>
+            <param name="errorDescription"></param>
+        </member>
+        <member name="M:Ensek.Api.Helpers.ServiceResponse`1.#ctor(`0)">
+            <summary>
+            
+            </summary>
+            <param name="data"></param>
+        </member>
+        <member name="T:Ensek.Api.Helpers.ServiceResponse">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Ensek.Api.Helpers.ServiceResponse.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Ensek.Api.Helpers.ServiceResponse.#ctor(System.Nullable{System.Net.HttpStatusCode})">
+            <summary>
+            
+            </summary>
+            <param name="errorCode"></param>
+        </member>
+        <member name="M:Ensek.Api.Helpers.ServiceResponse.#ctor(System.Nullable{System.Net.HttpStatusCode},System.String)">
+            <summary>
+            
+            </summary>
+            <param name="errorCode"></param>
+            <param name="errorDescription"></param>
+        </member>
+        <member name="M:Ensek.Api.Interfaces.IAccountService.GetAccounts">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Ensek.Api.Interfaces.IAccountService.GetAccount(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="accountId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ensek.Api.Interfaces.IAccountService.PostAccount(Ensek.Api.Models.Account.AccountPostModel)">
+            <summary>
+            
+            </summary>
+            <param name="accountPostModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Ensek.Api.Interfaces.IMeterReadingService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Ensek.Api.Interfaces.IMeterReadingService.GetMeterReadings">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ensek.Api.Interfaces.IMeterReadingService.GetMeterReading(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ensek.Api.Interfaces.IMeterReadingService.LoadReadings(Ensek.Api.Models.MeterReading.MeterReadingsImportRequestModel)">
+            <summary>
+            
+            </summary>
+            <param name="meterReadingsImportRequestModel"></param>
+        </member>
+        <member name="T:Ensek.Api.Models.Account.AccountModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ensek.Api.Models.Account.AccountModel.AccountId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ensek.Api.Models.Account.AccountModel.Firstname">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ensek.Api.Models.Account.AccountModel.Lastname">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Ensek.Api.Models.Account.AccountPostModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ensek.Api.Models.Account.AccountPostModel.Firstname">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ensek.Api.Models.Account.AccountPostModel.Lastname">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Ensek.Api.Models.MeterReading.InvalidMeterReadingModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Ensek.Api.Models.MeterReading.MeterReadingImportModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ensek.Api.Models.MeterReading.MeterReadingImportModel.ImportStatus">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ensek.Api.Models.MeterReading.MeterReadingImportModel.ReasonNotImported">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Ensek.Api.Services.AccountService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Ensek.Api.Services.AccountService.#ctor(Ensek.Data.EnsekDbContext,AutoMapper.IMapper)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:Ensek.Api.Services.AccountService.GetAccounts">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Ensek.Api.Services.AccountService.GetAccount(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="accountId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ensek.Api.Services.AccountService.PostAccount(Ensek.Api.Models.Account.AccountPostModel)">
+            <summary>
+            
+            </summary>
+            <param name="accountPostModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Ensek.Api.Services.MeterReadingService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Ensek.Api.Services.MeterReadingService.#ctor(Ensek.Data.EnsekDbContext,AutoMapper.IMapper)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:Ensek.Api.Services.MeterReadingService.GetMeterReadings">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Ensek.Api.Services.MeterReadingService.GetMeterReading(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="accountId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ensek.Api.Services.MeterReadingService.LoadReadings(Ensek.Api.Models.MeterReading.MeterReadingsImportRequestModel)">
+            <summary>
+            
+            </summary>
+            <param name="meterReadingsImportRequestModel"></param>
+        </member>
+        <member name="M:Ensek.Api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Ensek.Api.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>
