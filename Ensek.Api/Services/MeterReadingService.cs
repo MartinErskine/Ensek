@@ -138,6 +138,7 @@ namespace Ensek.Api.Services
                     isRecordBad = false;
                 }
 
+                //TODO: Fix logic for calculating Added Record & duplicate record counts.
 
                 var readings = _mapper.Map<List<MeterReading>>(validList);
                 var newReadings = new List<MeterReading>();
