@@ -38,6 +38,13 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:Ensek.Api.Controllers.MeterReadingController.GetMeterReading(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="accountId"></param>
+            <returns></returns>
+        </member>
         <member name="M:Ensek.Api.Controllers.MeterReadingController.ImportCsvFile(Ensek.Api.Models.MeterReading.MeterReadingsImportRequestModel)">
             <summary>
             
@@ -223,7 +230,32 @@
             
             </summary>
         </member>
+        <member name="T:Ensek.Api.Models.MeterReading.InvalidMeterReadingImportModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ensek.Api.Models.MeterReading.InvalidMeterReadingImportModel.ImportStatus">
+            <summary>
+            
+            </summary>
+        </member>
         <member name="T:Ensek.Api.Models.MeterReading.InvalidMeterReadingModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ensek.Api.Models.MeterReading.InvalidMeterReadingModel.AccountId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ensek.Api.Models.MeterReading.InvalidMeterReadingModel.MeterReadingDateTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ensek.Api.Models.MeterReading.InvalidMeterReadingModel.MeterReadValue">
             <summary>
             
             </summary>
@@ -239,6 +271,56 @@
             </summary>
         </member>
         <member name="P:Ensek.Api.Models.MeterReading.MeterReadingImportModel.ReasonNotImported">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Ensek.Api.Models.MeterReading.MeterReadingImportResponseModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ensek.Api.Models.MeterReading.MeterReadingImportResponseModel.Imports">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ensek.Api.Models.MeterReading.MeterReadingImportResponseModel.SuccessfulImports">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ensek.Api.Models.MeterReading.MeterReadingImportResponseModel.FailedImports">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ensek.Api.Models.MeterReading.MeterReadingImportResponseModel.DuplicateImports">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Ensek.Api.Models.MeterReading.MeterReadingModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ensek.Api.Models.MeterReading.MeterReadingModel.AccountId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ensek.Api.Models.MeterReading.MeterReadingModel.MeterReadingDateTime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Ensek.Api.Models.MeterReading.MeterReadingModel.MeterReadValue">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Ensek.Api.Models.MeterReading.MeterReadingsImportRequestModel">
             <summary>
             
             </summary>

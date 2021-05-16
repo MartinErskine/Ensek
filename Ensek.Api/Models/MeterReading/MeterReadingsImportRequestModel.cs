@@ -7,11 +7,11 @@ using Microsoft.VisualBasic.FileIO;
 
 namespace Ensek.Api.Models.MeterReading
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class MeterReadingsImportRequestModel : IValidatableObject
     {
-        //public DateTime ReadDate { get; set; }
-        //public int AccountId { get; set; }
-
         [DataType(DataType.Upload)]
         public IFormFile CsvFile { get; set; }
 

@@ -100,7 +100,8 @@ namespace Ensek.Api.Services
         {
             try
             {
-
+                //TODO: Create POST logic.
+                //
 
 
 
@@ -108,10 +109,11 @@ namespace Ensek.Api.Services
             }
             catch (Exception e)
             {
-
-
-
-                return null;
+                return new ServiceResponse<AccountModel>
+                {
+                    ErrorCode = HttpStatusCode.InternalServerError,
+                    ErrorDescription = "Internal Server Error"
+                };
             }
         }
     }

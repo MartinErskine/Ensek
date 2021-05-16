@@ -41,6 +41,11 @@ namespace Ensek.Api.Controllers
             return Ok(response);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="accountId"></param>
+        /// <returns></returns>
         [HttpGet("{accountId}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
